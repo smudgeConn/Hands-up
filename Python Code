@@ -1,0 +1,5 @@
+def get_positions(n):
+    person_1 = n % 3
+    person_2 = (n//3)%3
+    person_3 = (n//9)%3
+    return (person_1, person_2, person_3)
